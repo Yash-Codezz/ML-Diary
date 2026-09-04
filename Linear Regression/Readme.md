@@ -19,3 +19,6 @@ Result:
 |---|---|---|
 | **Scikit Learn** | 82.84% | 9.64% |
 | **O.L.S. Method** | 80.33% | 9.18% |
+| **Batch Gradient Descent** | 80.33% | 9.15% |
+| **Stochastic Gradient Descent** | 77.80% | 10.16% |
+| **Mini Batch Gradient Descent** | 80.44% | 9.25% |
