@@ -22,3 +22,5 @@ Result:
 | **Batch Gradient Descent** | 80.33% | 9.15% |
 | **Stochastic Gradient Descent** | 77.80% | 10.16% |
 | **Mini Batch Gradient Descent** | 80.44% | 9.25% |
+| **Ridge** | 82.85% | 9.65% |
+| **Lasso** | 82.84% | 9.64% |
