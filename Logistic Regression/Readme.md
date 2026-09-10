@@ -10,3 +10,18 @@ Target Variable: **Attrition**
 
 *Yes* → Employee left the company.
 *No* → Employee stayed.
+
+---
+
+## Solution:
+
+- Build a **Logistic Regression Model** from 'Scikit-Learn'
+- also did **Exploratory Data Analysis** and **Feature Engineering**.
+
+Result:
+
+| **Method** | **Accuracy** | **Precision** | **Recall** | **F1 Score** |
+|---|---|---|---|---|
+| Scikit-Learn | 75.66% | 14.29% | 85.71% | 24.29% |
+
+*According to the problem statement, goal is to maximize the Recall and the model can identify ~86% of employees who actually leave the company. Although the Precision is relatively low, this trade-off is acceptable for the current business objective, since missing an employee who is likely to leave is more costly than incorrectly flagging an employee who would stay.*
